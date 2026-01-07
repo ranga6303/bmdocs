@@ -1,0 +1,37 @@
+1. api/login (post)
+{
+userid: ,
+password: ,
+user_type:,
+}
+
+2. api/login (get)
+{
+login credentials found?{
+user_details:{all details in identity card},
+}:{message:what is not matched}
+}
+
+
+
+2. api/rgister(post)
+{
+rollnum: ,
+}
+
+3. api/register (get)
+{
+rollnum_status: found/notfound/already regiseterd
+}
+
+4. api/register/assign_password (post)
+{
+password: 
+}
+
+5. api/register/assign_password (get)
+{
+message: status of device id and password
+}
+
+6. 
